@@ -18,26 +18,28 @@ This project is my **Capstone Project** for the **Operating Systems and Architec
 - **Postman**: Used to test and verify API endpoints for CRUD operations.
 - **GitHub**: Used for version control and hosting the project code.
 
-##  📁 Project Structure
+## 📁 Project Structure
 ```bash
 my-capstone-project/
 │
 ├── backend/
-│   ├── app.js                # Express.js server file
-│   ├── database.js           # MySQL connection configuration
-│   ├── routes/               # API route definitions for CRUD operations
-│   ├── models/               # Database models (e.g., user, data)
-│   └── package.json          # Node.js dependencies and scripts
+│   ├── .env                  # Environment variables for the backend
+│   ├── .gitkeep              # Keep empty directory in Git
+│   ├── index.js              # Entry point for the backend server
 │
 ├── frontend/
-│   ├── public/               # Static assets
+│   ├── public/               # Static assets (e.g., images, icons)
 │   ├── src/                  # React.js source code
 │   │   ├── components/       # Reusable UI components
 │   │   ├── App.js            # Main React app component
 │   │   ├── api/              # API calls to interact with the backend
 │   │   └── index.js          # React entry point
-│   ├── package.json          # Frontend dependencies
+│   ├── .gitignore            # Git ignore file
+│   ├── .gitkeep              # Keep empty directory in Git
+│   ├── README.md             # Frontend project documentation
+│   ├── package-lock.json     # Dependency lock file for frontend
+│   └── package.json          # Frontend dependencies
 │
-├── get-post-delete           # API demo image
+├── get-post-delete.png       # API demo image
 ├── frontend.mov              # Frontend demo video
 └── README.md                 # Project documentation (this file)
