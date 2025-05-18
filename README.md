@@ -40,7 +40,7 @@ my-capstone-project/
 │   ├── package-lock.json     # Dependency lock file for frontend
 │   └── package.json          # Frontend dependencies
 │
-├── frontend.mov              # Frontend demo video
+├── frontend-demo.md          # Frontend demo video
 ├── get-post-delete.png       # API demo image
 ├── README.md                 # Project documentation (this file)
 └── postgresql.js             # Uses Express and PostgreSQL to manage countries via /country GET, POST, and DELETE routes.
